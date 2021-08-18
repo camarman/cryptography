@@ -1,0 +1,399 @@
+Name: 1984
+Id: juanmnl.vscode-theme-1984
+Description: 🎶I'm gonna show you where it's dark, but have no fear 🎶
+Version: 0.3.4
+Publisher: juanmnl
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=juanmnl.vscode-theme-1984
+
+##################################### 
+
+Name: 2077 theme
+Id: endormi.2077-theme
+Description: Cyberpunk 2077 inspired theme
+Version: 1.5.3
+Publisher: Endormi
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme
+
+##################################### 
+
+Name: Atlantic Night
+Id: mrpbennett.atlantic-night
+Description: VSC theme inspired by the deep blues of the Atlantic
+Version: 3.5.0
+Publisher: mrpbennett
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mrpbennett.atlantic-night
+
+##################################### 
+
+Name: Better Comments
+Id: aaron-bond.better-comments
+Description: Improve your code commenting by annotating with alert, informational, TODOs, and more!
+Version: 2.1.0
+Publisher: Aaron Bond
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+
+##################################### 
+
+Name: Bookmarks
+Id: alefragnani.bookmarks
+Description: Mark lines and jump to them
+Version: 13.1.0
+Publisher: Alessandro Fragnani
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
+
+##################################### 
+
+Name: Carbon Product Icons
+Id: antfu.icons-carbon
+Description: Carbon Product Icons for VS Code
+Version: 0.2.4
+Publisher: Anthony Fu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon
+
+##################################### 
+
+Name: Cobalt2 Theme Official
+Id: wesbos.theme-cobalt2
+Description: 🔥 Official theme by Wes Bos.
+Version: 2.2.5
+Publisher: Wes Bos
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2
+
+##################################### 
+
+Name: Code Spell Checker
+Id: streetsidesoftware.code-spell-checker
+Description: Spelling checker for source code
+Version: 1.10.2
+Publisher: Street Side Software
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
+##################################### 
+
+Name: Cyberpunk
+Id: max-ss.cyberpunk
+Description: A crazy cyberpunk theme
+Version: 1.2.5
+Publisher: Max
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=max-SS.cyberpunk
+
+##################################### 
+
+Name: Edge Theme
+Id: bogdanlazar.edge
+Description: A superb theme for your coding needs in 3 variants
+Version: 1.2.3
+Publisher: Bogdan Lazar
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bogdanlazar.edge
+
+##################################### 
+
+Name: Error Lens
+Id: usernamehw.errorlens
+Description: Improve highlighting of errors, warnings and other language diagnostics.
+Version: 3.3.2
+Publisher: Alexander
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+
+##################################### 
+
+Name: Excel Viewer
+Id: grapecity.gc-excelviewer
+Description: View Excel spreadsheets and CSV files within Visual Studio Code workspaces.
+Version: 3.0.42
+Publisher: GrapeCity
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer
+
+##################################### 
+
+Name: filesize
+Id: mkxml.vscode-filesize
+Description: Show the current file size in the status bar
+Version: 3.1.0
+Publisher: Matheus Kautzmann
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize
+
+##################################### 
+
+Name: Fluent Icons
+Id: miguelsolorio.fluent-icons
+Description: Fluent product icons for Visual Studio Code
+Version: 0.0.12
+Publisher: Miguel Solorio
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons
+
+##################################### 
+
+Name: gitignore
+Id: codezombiech.gitignore
+Description: Lets you pull .gitignore templates from the https://github.com/github/gitignore repository. Language support for .gitignore files.
+Version: 0.7.0
+Publisher: CodeZombie
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
+
+##################################### 
+
+Name: Horizon Theme
+Id: jolaleye.horizon-theme-vscode
+Description: A beautifully warm dual theme for Visual Studio Code
+Version: 2.0.2
+Publisher: jolaleye
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode
+
+##################################### 
+
+Name: indent-rainbow
+Id: oderwat.indent-rainbow
+Description: Makes indentation easier to read
+Version: 7.5.0
+Publisher: oderwat
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+
+##################################### 
+
+Name: Jupyter
+Id: ms-toolsai.jupyter
+Description: Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.
+Version: 2021.6.999662501
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
+
+##################################### 
+
+Name: LaTeX Workshop
+Id: james-yu.latex-workshop
+Description: Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.
+Version: 8.19.2
+Publisher: James Yu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+
+##################################### 
+
+Name: Lilac
+Id: shubham-saudolla.lilac
+Description: A dark theme with pretty pastel colours.
+Version: 1.3.0
+Publisher: shubhamsaudolla
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=shubham-saudolla.lilac
+
+##################################### 
+
+Name: MagicPython
+Id: magicstack.magicpython
+Description: Syntax highlighter for cutting edge Python.
+Version: 1.1.0
+Publisher: MagicStack Inc.
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython
+
+##################################### 
+
+Name: markdownlint
+Id: davidanson.vscode-markdownlint
+Description: Markdown linting and style checking for Visual Studio Code
+Version: 0.42.1
+Publisher: David Anson
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+
+##################################### 
+
+Name: monokai light
+Id: anoff.theme-monokai-light
+Description: monokai colors on bright background 💖
+Version: 1.2.0
+Publisher: anoff
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=anoff.theme-monokai-light
+
+##################################### 
+
+Name: Nüshu
+Id: wheredoesyourmindgo.nushu-vscode-theme
+Description: A VSCode theme that will continue to fade with time
+Version: 0.4.12
+Publisher: wheredoesyourmindgo
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme
+
+##################################### 
+
+Name: Ocean Space
+Id: oscarmcm.ocean-space
+Description: Deep dark theme with a taste of the space
+Version: 1.4.0
+Publisher: Oscar Cortez
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oscarmcm.ocean-space
+
+##################################### 
+
+Name: Outrun
+Id: samrapdev.outrun
+Description: A theme for VS Code inspired by the colors, style, and culture of the synthwave music scene.
+Version: 0.2.2
+Publisher: samrapdev
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=samrapdev.outrun
+
+##################################### 
+
+Name: Path Intellisense
+Id: christian-kohler.path-intellisense
+Description: Visual Studio Code plugin that autocompletes filenames
+Version: 2.4.0
+Publisher: Christian Kohler
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+
+##################################### 
+
+Name: Pylance
+Id: ms-python.vscode-pylance
+Description: A performant, feature-rich language server for Python in VS Code
+Version: 2021.6.3
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+
+##################################### 
+
+Name: Python
+Id: ms-python.python
+Description: IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests, and more.
+Version: 2021.6.944021595
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
+#####################################
+
+Name: Python Docstring Generator
+Id: njpwerner.autodocstring
+Description: Automatically generates detailed docstrings for python functions
+Version: 0.5.4
+Publisher: Nils Werner
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+
+##################################### 
+
+Name: Python Indent
+Id: kevinrose.vsc-python-indent
+Description: Correct python indentation.
+Version: 1.14.2
+Publisher: Kevin Rose
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent
+
+##################################### 
+
+Name: Rainbow CSV
+Id: mechatroner.rainbow-csv
+Description: Highlight CSV and TSV files, Run SQL-like queries
+Version: 1.9.1
+Publisher: mechatroner
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
+
+##################################### 
+
+Name: Soft Colors
+Id: victorlitvinenko.vscode-soft-colors
+Description: Soft Colors Theme was created with care for your eyes. I tried to save a low contrast balance with the least loss of code perception.
+Version: 0.0.11
+Publisher: Victor Litvinenko
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=victorlitvinenko.vscode-soft-colors
+
+##################################### 
+
+Name: Sort lines
+Id: tyriar.sort-lines
+Description: Sorts lines of text
+Version: 1.9.0
+Publisher: Daniel Imms
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+
+#####################################
+
+Name: Spirited Away Color Theme
+Id: maxfieldwalker.vscode-color-theme-spirited-away
+Description: Color theme for VSCode inspired by Spirited Away
+Version: 1.3.2
+Publisher: Maxfield Walker
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=MaxfieldWalker.vscode-color-theme-spirited-away
+
+#####################################
+
+Name: SynthWave '84
+Id: robbowen.synthwave-vscode
+Description: A Synthwave-inspired colour theme to satisfy your neon dreams
+Version: 0.1.8
+Publisher: Robb Owen
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode
+
+##################################### 
+
+Name: TODO Highlight
+Id: wayou.vscode-todo-highlight
+Description: highlight TODOs, FIXMEs, and any keywords, annotations...
+Version: 1.0.4
+Publisher: Wayou Liu
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+
+##################################### 
+
+Name: Tokyo Night
+Id: enkia.tokyo-night
+Description: A clean, dark (and now light) Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.
+Version: 0.7.9
+Publisher: enkia
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
+
+##################################### 
+
+Name: Tomorrow and Tomorrow Night Theme Kit
+Id: ms-vscode.theme-tomorrowkit
+Description: Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.
+Version: 0.1.4
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-TomorrowKit
+
+##################################### 
+
+Name: Trailing Spaces
+Id: shardulm94.trailing-spaces
+Description: Highlight trailing spaces and delete them in a flash!
+Version: 0.3.1
+Publisher: Shardul Mahadik
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
+
+##################################### 
+
+Name: Visual Studio IntelliCode
+Id: visualstudioexptteam.vscodeintellicode
+Description: AI-assisted development
+Version: 1.2.14
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+
+##################################### 
+
+Name: vscode-icons
+Id: vscode-icons-team.vscode-icons
+Description: Icons for Visual Studio Code
+Version: 11.5.0
+Publisher: VSCode Icons Team
+
+#####################################
+
+Name: Windows NT
+Id: wassimdev.windows-nt-vscode-theme
+Description: A Windows NT/2000 theme for VS Code
+Version: 0.0.9
+
+#####################################
+
+Name: Winter is Coming Theme
+Id: johnpapa.winteriscoming
+Description: Preferred dark/light themes by John Papa
+Version: 1.4.4
+Publisher: John Papa
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming
+
+##################################### 
+
+Name: Output Colorizer
+Id: ıbm.output-colorizer
+Description: Syntax highlighting for log files
+Version: 0.1.2
+Publisher: IBM
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer
