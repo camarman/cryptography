@@ -10,7 +10,7 @@ WORDLIST_FILENAME = "words.txt"
 def load_words():
     """
     Returns a list of valid words. Words are strings of lowercase letters.
-    
+
     Depending on the size of the word list, this function may
     take a while to finish.
     """
@@ -29,7 +29,7 @@ def load_words():
 def choose_word(wordlist):
     """
     wordlist (list): list of words (strings)
-    
+
     Returns a word from wordlist at random
     """
     return choice(wordlist)
@@ -72,7 +72,7 @@ def get_guessed_word(secret_word, letters_guessed):
             guessed_word.insert(index, "_")
             index += 1
     return ''.join(guessed_word)
-        
+
 
 
 def get_available_letters(letters_guessed):
@@ -136,7 +136,7 @@ def hangman(secret_word):
             else:
                 warning_remaning -= 1
                 print("Oops! That is not a valid letter. You have",warning_remaning,"warnings left:", get_guessed_word(secret_word, letters_guessed))
-            
+
     else: # if no guesses left
         print("-------------")
         print("Sorry, you ran out of guesses. The word was", secret_word)
@@ -147,10 +147,10 @@ def match_with_gaps(my_word, other_word):
     '''
     my_word: string with _ characters, current guess of secret word
     other_word: string, regular English word
-    returns: boolean, True if all the actual letters of my_word match the 
+    returns: boolean, True if all the actual letters of my_word match the
         corresponding letters of other_word, or the letter is the special symbol
         _ , and my_word and other_word are of the same length;
-        False otherwise: 
+        False otherwise:
     '''
     if len(my_word) != len(other_word):
         return False
@@ -160,9 +160,9 @@ def match_with_gaps(my_word, other_word):
         elif my_word[i] in ascii_letters and my_word[i] != other_word[i]:
             return False
     return True
-           
-            
-            
+
+
+
 def show_possible_matches(my_word):
     '''
     my_word: string with _ characters, current guess of secret word
@@ -180,7 +180,7 @@ def show_possible_matches(my_word):
         return "No matches found"
     else:
         return ' '.join(possible_matches)
-            
+
 
 
 def hangman_with_hints(secret_word):
@@ -202,7 +202,7 @@ def hangman_with_hints(secret_word):
         if guessed_letter == "*":
             print("Possible word matches are: ")
             print(show_possible_matches(get_guessed_word(secret_word, letters_guessed)))
-        
+
         elif guessed_letter in ascii_letters_new and guessed_letter not in letters_guessed: # checking the input condition
             guessed_letter = guessed_letter.lower() # turning uppercase letters to lowercase
             letters_guessed.append(guessed_letter)
@@ -219,7 +219,7 @@ def hangman_with_hints(secret_word):
                 print("Congratulations, you won!")
                 print("Your total score for this game is:", score)
                 break
-            
+
         elif guessed_letter in letters_guessed: # if the guessed letter is already picked before
             if warning_remaning == 0:
                 guesses_remanining -= 1
@@ -228,7 +228,7 @@ def hangman_with_hints(secret_word):
             else:
                 warning_remaning -= 1
                 print("Oops! You've already guessed that letter. You have", warning_remaning, "warnings left:", get_guessed_word(secret_word, letters_guessed))
-        
+
         else: # if the guessed letter is an non-ascii lowercase/uppercase char
             if warning_remaning == 0:
                 guesses_remanining -= 1
@@ -237,7 +237,7 @@ def hangman_with_hints(secret_word):
             else:
                 warning_remaning -= 1
                 print("Oops! That is not a valid letter. You have",warning_remaning,"warnings left:", get_guessed_word(secret_word, letters_guessed))
-            
+
     else: # if no guesses left
         print("-------------")
         print("Sorry, you ran out of guesses. The word was", secret_word)

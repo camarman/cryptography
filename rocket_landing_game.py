@@ -17,9 +17,9 @@ M_total = M_craft + Fuel
 
 t = 0
 print('\t---Welcome to the Rocket Landing Game---\n')
-print('You are in a rocket approaching the Moon!')                   
-print('Main computer failed (it was not built by DEC)!')             
-print('You are to perform manual landing by controlling engines\n')    
+print('You are in a rocket approaching the Moon!')
+print('Main computer failed (it was not built by DEC)!')
+print('You are to perform manual landing by controlling engines\n')
 print('Specify fuel burning rate (kg"s per second) for each 10 sec and try to touch down with safe speed. Good luck!!!')
 print('Rocket weight:', M_craft, '\n')
 print('\tTime\tHeight(m)\tSpeed(m/s)\tFuel(kg)\tGravity(m/s^2)')
@@ -34,11 +34,11 @@ while flag:
         dM = dM / 10
         t += 10
         if (Fuel > 0) and (H >= 0):
-            for i in range(100): 
+            for i in range(100):
                 H = H - V * dt
                 dV = (V_exhaust * dM) / M_total
                 M_total = M_total - dM
-                Fuel = Fuel - dM 
+                Fuel = Fuel - dM
                 g = (g_0 * (moon_radius) ** 2) / (moon_radius + H) ** 2
                 V = V + g * dt - dV
             print('\t',t,'\t','%6d' % (H),'\t','%4d' % (V),'\t\t', '%4d' % (Fuel),'\t\t','%4.2f'% (g))

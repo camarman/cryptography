@@ -33,7 +33,7 @@ def acceleration(V, B):
     Args:
         V [list]: The velocity vector given as a list
         B [list]: The magnetic field vector given as a list
-                
+
     Returns:
         A: The acceleration of the particle given as a vector
     """
@@ -52,32 +52,31 @@ for n in range(1200):
     Yn = Ri[1] + dt * Vi[1] + 1/2 * dt**2 * A0[1]
     # defining the z component of the position
     Zn = Ri[2] + dt * Vi[2] + 1/2 * dt**2 * A0[2]
-    
+
     # printing these components into the file
     file.write('%.5f %4.5f %4.5f\n' % (Xn, Yn, Zn))
-    
+
     # taking these values to an array
-    Rn = [Xn, Yn, Zn]  
-    
+    Rn = [Xn, Yn, Zn]
+
     # defining an array that will calculate the acceleration for the next steps
     W = [Vi[i] + dt * A0[i] for i in range(3)]
-    
+
     l = acceleration(W, B)
     Vtemporary_x = Vi[0] + 1/2 * dt * (A0[0] + l[0])
     Vtemporary_y = Vi[1] + 1/2 * dt * (A0[1] + l[1])
     Vtemporary_z=  Vi[2] + 1/2 * dt * (A0[2] + l[2])
-    Vtemporary = [Vtemporary_x, Vtemporary_x,
-                  Vtemporary_x]  # temporary velocity
+    Vtemporary = [Vtemporary_x, Vtemporary_x, Vtemporary_x]  # temporary velocity
     C = acceleration(Vtemporary, B)
     Vnext_x = Vi[0] + 1/2 * dt * (A0[0] + C[0])
     Vnext_y = Vi[1] + 1/2 * dt * (A0[1] + C[1])
     Vnext_z = Vi[2] + 1/2 * dt * (A0[2] + C[2])
     Vnext = [Vnext_x, Vnext_y, Vnext_z]  # the next velocity
-    
+
     # defining the cross product corresponding to the next velocity
     A0 = acceleration(Vnext, B)
     Vi = Vnext
     Ri = Rn
     W = []
-    
+
 file.close()

@@ -1,4 +1,4 @@
-# A simpler form of Conway's Game of life 
+# A simpler form of Conway's Game of life
 # https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 from math import sqrt
@@ -8,29 +8,29 @@ from copy import deepcopy
 # "X" represents an organism
 # "-" represents an empty cell
 
-inital_data = "XXX--X-,--XX-X-,-X-XX--,-X-X-XX,XX-XX-X"
+initial_data = "XXX--X-,--XX-X-,-X-XX--,-X-X-XX,XX-XX-X"
 
 number_of_turn = 5
 
-# each row elements from the inital data
-inital_config = inital_data.split(",")
+# each row elements from the initial data
+initial_config = initial_data.split(",")
 
 # number of rows and number of columns in the initial_config
-num_row = len(inital_config)
-num_col = len(inital_config[1])
+num_row = len(initial_config)
+num_col = len(initial_config[1])
 
 
 # creating a grid of position dictionary
-living_area = {}  
+living_area = {}
 for i in range(3*num_row):  # the row of the grid will be the 3 times larger
     for j in range(3*num_col):  # the column of the grid will be the 3 times larger
-        living_area[(i, j)] = 0  # inital status of the grid
+        living_area[(i, j)] = 0  # initial status of the grid
 
 
 # appending the organism structure into the grid
 for i in range(num_row):
     for j in range(num_col):
-        if inital_config[i][j] == "-"  
+        if initial_config[i][j] == "-":
             # if the cell does not contain an organism
             living_area[(i + num_row, j + num_col)] = 0
         else:

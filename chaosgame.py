@@ -21,11 +21,10 @@ elif shape == 4:
     side_len = screen.numinput('Side Length', 'Enter the side length of the square (100-700):', 200, 100, 700)
 elif shape == 5:
     side_len = screen.numinput('Side Length', 'Enter the side length of the equilateral pentagon (100-700):', 200, 100, 700)
-       
-    
+
 
 if shape == 3:
-    # drawing the corners (A - B - C) of the equilateral triangle 
+    # drawing the corners (A - B - C) of the equilateral triangle
     penup()
     forward(side_len)
     dot(9)
@@ -41,7 +40,7 @@ if shape == 3:
     # taking the initial points as an input
     init_pos_x = screen.numinput('Initial Point', 'Enter the x-coordinate of the starting point:', int(side_len//2), 0, 1000)
     init_pos_y = screen.numinput('Initial Point', 'Enter the y-coordinate of the starting point:', int(side_len//2), 0, 1000)
-    goto(init_pos_x, init_pos_y) 
+    goto(init_pos_x, init_pos_y)
     pos = position() # recording the initial position of the point
     dot(9, "blue")
     while True:
@@ -122,8 +121,8 @@ if shape == 4:
             dot(6, "black")
             pos = position()
         g = w
-        
-        
+
+
 if shape == 5:
     # drawing the corners (A - B - C - D - E) of the equilateral pentagon
     penup()
