@@ -1,5 +1,5 @@
 		PART 1 (Pre - Installation)
-	1. Install Fedora to USB 
+	1. Install Fedora to USB
 	2. Do not select delete after download in fedora media writer
 		PART 2 (Booting)
 	1. Adjust the boot option from the UEFI menu
@@ -21,6 +21,3 @@
 	3. Wait 10 min
 	4. Restart
 	5. Enable Cuda
-	
-
-   
