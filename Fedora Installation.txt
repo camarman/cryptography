@@ -1,0 +1,26 @@
+		PART 1 (Pre - Installation)
+	1. Install Fedora to USB 
+	2. Do not select delete after download in fedora media writer
+		PART 2 (Booting)
+	1. Adjust the boot option from the UEFI menu
+		PART 3 (Live USB - Installation)
+	1. Download gparted
+	2. Delete all ext4 and the main partition
+	3. DO NOT DELETE EFI
+	4. Install to hard drive
+		PART 4
+	1. sudo def update —refresh
+	2. Wait 10 min
+	3. Restart
+	4. Switch to Xorg
+	5. Install Chrome
+		PART 6 (Enabling Nvidia)
+	Nvidia does not work for Wayland, but wayland is much better
+	1. Enable RPM Repos
+	2. Enable akmod Nvidia
+	3. Wait 10 min
+	4. Restart
+	5. Enable Cuda
+	
+
+   
