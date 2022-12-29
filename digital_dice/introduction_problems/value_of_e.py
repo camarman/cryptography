@@ -15,4 +15,4 @@ for i in range(10 ** 6):
             L += 1
             break
     sum += L
-print(sum / 10**6)  # this is equal to e
+print('e=', sum / 10**6)  # this is equal to e

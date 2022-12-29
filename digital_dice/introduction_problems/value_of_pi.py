@@ -1,6 +1,5 @@
 from random import uniform
 
-
 P = 0
 N = 10 ** 6
 for j in range(N):
@@ -9,4 +8,4 @@ for j in range(N):
     if x_1**2 + y_1**2 < 1:
         P += 1
 pi = 4 * P / N
-print("pi = ", pi)
+print("pi=", pi)

@@ -1,7 +1,6 @@
 # Digital Dice
 # Problem 11: The Case of the Missing Senators
 
-
 from random import uniform
 
 

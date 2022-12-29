@@ -24,7 +24,7 @@ def next_town():
 
 k = 5
 
-step_size = 10**7
+step_size = 10**6
 prob = 0
 for step in range(step_size):
     burglar_visited_house = [0]
