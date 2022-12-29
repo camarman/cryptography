@@ -20,23 +20,23 @@ def encrypt_script(filePATH):
         f.write(encryption_type.encrypt(data))
 
 
-def read_binary_script(encfilePATH):
+def read_binary_script(enc_filePATH):
     """
     Reading the binary string for the use of the exec function.
     """
-    with open(encfilePATH, 'rb') as f:
+    with open(enc_filePATH, 'rb') as f:
         data = f.read()
         return data
 
 
 filePATH = 'hello.py'   # It can be full or relative path
-encfilePATH = 'hello.pyf'    # It can be full or relative path
+enc_filePATH = 'hello.pyf'    # It can be full or relative path
 
 # Encoding the python script
 encrypt_script(filePATH)
 
 # Reading the encoded python script
-encrypted_script = read_binary_script(encfilePATH)
+encrypted_script = read_binary_script(enc_filePATH)
 
 # Decrypting the python script
 decrypted_script = encryption_type.decrypt(encrypted_script)

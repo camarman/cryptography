@@ -1,5 +1,6 @@
 from random import uniform
 
+
 P = 0
 N = 10 ** 6
 for j in range(N):

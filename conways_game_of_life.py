@@ -1,8 +1,8 @@
 # A simpler form of Conway's Game of life
 # https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-from math import sqrt
 from copy import deepcopy
+
 
 # the initial data of the cells
 # "X" represents an organism

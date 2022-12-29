@@ -3,6 +3,7 @@
 from random import choice
 from string import ascii_letters
 
+
 list_of_str = ascii_letters + '0123456789' + r'!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
 
 try:

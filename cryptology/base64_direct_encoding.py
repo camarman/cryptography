@@ -1,6 +1,5 @@
 import base64
 
-# The code goes here
 
 code = b""
 print('Hello, World!')

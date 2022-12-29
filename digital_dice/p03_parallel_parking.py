@@ -4,12 +4,12 @@
 from random import choice, uniform
 
 
-def mutualpair_finder(L):
+def mutual_pair_finder(L):
     """
     Finding the points in a list where they are a member of mutual neighbours
 
     Args:
-        L [list]: A list contaning random number
+        L [list]: A list containing random number
 
     Returns:
         [set]: Members of the mutual neighbours points
@@ -31,12 +31,12 @@ def mutualpair_finder(L):
 
 
 step_size = 10**6
-for n in range(3, 12):  # list contaning different number of members/cars
+for n in range(3, 12):  # list containing different number of members/cars
     prob = 0
     for i in range(step_size):
         L = sorted([uniform(0, 1) for i in range(n)])
         random_car = choice(L)
-        mutual_paired_cars = mutualpair_finder(L)
+        mutual_paired_cars = mutual_pair_finder(L)
         if random_car in mutual_paired_cars:
             prob += 1
     total_prob = prob / step_size

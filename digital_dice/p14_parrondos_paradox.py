@@ -70,7 +70,7 @@ def play_game1():
 
 def play_game2():
     """
-    Computing 100 single games for part 2 
+    Computing 100 single games for part 2
 
     Returns:
         The progress of the capital per time (coin_flip)

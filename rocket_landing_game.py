@@ -2,6 +2,7 @@
 
 from random import randint
 
+
 M_craft = randint(6000, 9000) # mass of the rocket in kg
 Fuel = randint(5000, 9000) # mass of the fuel in kg
 H = randint(150000, 250000)   # initial height in meter

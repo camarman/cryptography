@@ -25,7 +25,7 @@ def resizeKey(asciiArr_message, asciiArr_key):
 
 def generateASCIIkey(keyLengthASCII):
     """
-    Generating random printible ascii key
+    Generating random printable ascii key
 
     Args:
         keyLengthASCII [int]: The desired length of the ASCII key

@@ -3,6 +3,7 @@
 
 from random import uniform
 
+
 step_size = 10**6
 clumsy = 0
 for i in range(step_size):

@@ -63,7 +63,7 @@ def judge_resultA(true_case, pA, pB, pC, pD, pE):
         return 'innocent'
     else:
         return 'guilty'
-    
+
 
 def judge_resultB(true_case, pA, pB, pC, pD):
     """
@@ -91,10 +91,10 @@ def judge_resultB(true_case, pA, pB, pC, pD):
 
 total_case = 10**6
 
- ##### Part A #### 
- # Judge E votes independently
- 
- 
+##### Part A ####
+# # Judge E votes independently
+
+
 # incorrect_decisionA = 0
 # for case_num in range(total_case):
 #     true_case = random_case_generator()

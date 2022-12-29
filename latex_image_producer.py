@@ -3,6 +3,7 @@
 from PIL import Image
 from sympy import preview
 
+
 # type the equation in the latex form
 equation = r'$$\Sigma m_{{\nu}} = 0$$'
 

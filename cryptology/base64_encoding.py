@@ -16,23 +16,23 @@ def encode_script(filePATH):
         f.write(base64.b64encode(data))
 
 
-def read_script(encfilePATH):
+def read_script(enc_filePATH):
     """
     Reading the encoded string for the use of the exec function.
     """
-    with open(encfilePATH, 'r') as f:
+    with open(enc_filePATH, 'r') as f:
         data = f.read()
         return data
 
 
-filePATH = 'hello.py'   # It can be full or relative path
-encfilePATH = 'hello.pyb64'    # It can be full or relative path
+filePATH = 'hello.py'           # It can be full or relative path
+enc_filePATH = 'hello.pyb64'    # It can be full or relative path
 
 # Encoding the python script
 encode_script(filePATH)
 
 # Reading the encoded python script
-encrypted_script = read_script(encfilePATH)
+encrypted_script = read_script(enc_filePATH)
 
 # Decrypting the python script
 decrypted_script = base64.b64decode(encrypted_script)

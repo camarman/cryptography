@@ -5,6 +5,7 @@ from random import uniform
 from matplotlib import pyplot as plt
 from numpy import arange
 
+
 step_size = 10**4
 
 
@@ -55,24 +56,24 @@ def prob_wet_calc(p, home_umbrella_num, office_umbrella_num):
         the average time of getting wet
     """
     time = 0
-    curren_position = 'home'
+    current_position = 'home'
     wet = False
     while not wet:
         if is_rain(p):
-            if curren_position == 'home' and home_umbrella_num != 0:
+            if current_position == 'home' and home_umbrella_num != 0:
                 home_umbrella_num -= 1
                 office_umbrella_num += 1
-                curren_position = 'office'
+                current_position = 'office'
                 time += 1
-            elif curren_position == 'office' and office_umbrella_num != 0:
+            elif current_position == 'office' and office_umbrella_num != 0:
                 home_umbrella_num += 1
                 office_umbrella_num -= 1
-                curren_position = 'home'
+                current_position = 'home'
                 time += 1
             else:
                 wet = True
         else:
-            curren_position = next_loc(curren_position)
+            current_position = next_loc(current_position)
             time += 1
     return time
 

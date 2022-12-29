@@ -1,6 +1,5 @@
 # Digital Dice
 # Problem 4: A Curious Coin-Flipping Game
-# TODO: Fix the p and make it more appropriate
 
 from random import choice
 

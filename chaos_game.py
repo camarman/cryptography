@@ -13,7 +13,7 @@ speed(0)
 
 # the shape of the object as triangle (3), square(4) and pentagon(5)
 shape = screen.numinput(
-    'Geometric Shape', 'Enter the corner number of the shape (3-5)', default = 3, minval = 3, maxval = 5)
+    'Geometric Shape', 'Enter the corner number of the shape (3-5)', default=3, minval=3, maxval=5)
 
 if shape == 3:
     side_len = screen.numinput('Side Length', 'Enter the side length of the equilateral triangle (100-700):', 200, 100, 700)
