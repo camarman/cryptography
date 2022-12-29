@@ -1,7 +1,6 @@
 # Digital Dice
 # Problem 14: Parrondo’s Paradox
 
-
 from random import uniform
 from matplotlib import pyplot as plt
 from numpy import array, zeros

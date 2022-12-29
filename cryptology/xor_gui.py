@@ -1,8 +1,7 @@
 from time import sleep
-
 import PySimpleGUI as sg
-
 from xor_encryption import *
+
 
 # Color theme option, provided by the PySimpleGUI
 sg.ChangeLookAndFeel('SandyBeach')

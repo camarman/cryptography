@@ -1,7 +1,6 @@
 # Digital Dice
 # Problem 9: The Forgetful Burglar Problem
 
-
 from random import uniform
 
 

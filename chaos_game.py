@@ -37,7 +37,7 @@ if shape == 3:
     forward(side_len)
     dot(9)
     C = position()
-    # taking the initial points as an input
+    # taking the initial point as an input
     init_pos_x = screen.numinput('Initial Point', 'Enter the x-coordinate of the starting point:', int(side_len//2), 0, 1000)
     init_pos_y = screen.numinput('Initial Point', 'Enter the y-coordinate of the starting point:', int(side_len//2), 0, 1000)
     goto(init_pos_x, init_pos_y)
@@ -83,7 +83,7 @@ if shape == 4:
     forward(side_len)
     D = position()
     dot(9)
-    # taking the initial points as an input
+    # taking the initial point as an input
     init_pos_x = screen.numinput('Initial Point', 'Enter the x-coordinate of the starting point:', int(side_len//2), 0, 1000)
     init_pos_y = screen.numinput('Initial Point', 'Enter the y-coordinate of the starting point:', int(side_len//2), 0, 1000)
     goto(init_pos_x, init_pos_y)
@@ -145,7 +145,7 @@ if shape == 5:
     forward(side_len)
     E = position()
     dot(9)
-    # taking the initial points as an input
+    # taking the initial point as an input
     init_pos_x = screen.numinput('Initial Point', 'Enter the x-coordinate of the starting point:', int(side_len//2), 0, 1000)
     init_pos_y = screen.numinput('Initial Point', 'Enter the y-coordinate of the starting point:', int(side_len//2), 0, 1000)
     goto(init_pos_x, init_pos_y)

@@ -10,6 +10,7 @@ from copy import deepcopy
 
 initial_data = "XXX--X-,--XX-X-,-X-XX--,-X-X-XX,XX-XX-X"
 
+# you can select number of turns from here
 number_of_turn = 5
 
 # each row elements from the initial data
@@ -85,6 +86,6 @@ for i in range(number_of_turn):
             else:
                 updating_area[cell] = 1  # the organism lives
     total_organism = total_organism_counter(updating_area)
-    print(printing_formatter(updating_area))
+    printing_formatter(updating_area)
     print("Number of total organism:", total_organism, "\n")
     living_area = updating_area
