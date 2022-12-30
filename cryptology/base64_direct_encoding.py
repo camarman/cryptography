@@ -1,15 +1,14 @@
 import base64
 
-
 code = b""
 print('Hello, World!')
 ""
 
-# Encrypting the code in base64
-encrypted_script = base64.b64encode(code)
+# Encrypting the code via base64
+encrypted_message = base64.b64encode(code)
 
-# Decrypting the code in base64
-decrypted_script = base64.b64decode(encrypted_script)
+# Decrypting the code via base64
+decrypted_message = base64.b64decode(encrypted_message)
 
 # Executing the code
-exec(decrypted_script)
+exec(decrypted_message)

@@ -1,13 +1,13 @@
 import base64
 
 
-def encode_script(filePATH):
+def encrypt_script(filePATH):
     """
-    Encoding the python script into base64 for a given file path
+    Encrypting the python script with base64 for a given file path
 
     Args:
         filePATH [str]: The path of the python script that is
-        going to be encoded
+        going to be encrypted
     """
     with open(filePATH, 'rb') as f:
         data = f.read()
@@ -18,7 +18,7 @@ def encode_script(filePATH):
 
 def read_script(enc_filePATH):
     """
-    Reading the encoded string for the use of the exec function.
+    Reading the binary script for the use of the exec function.
     """
     with open(enc_filePATH, 'r') as f:
         data = f.read()
@@ -28,10 +28,10 @@ def read_script(enc_filePATH):
 filePATH = 'hello.py'           # It can be full or relative path
 enc_filePATH = 'hello.pyb64'    # It can be full or relative path
 
-# Encoding the python script
-encode_script(filePATH)
+# Encrypting the python script
+encrypt_script(filePATH)
 
-# Reading the encoded python script
+# Reading the encrypted python script
 encrypted_script = read_script(enc_filePATH)
 
 # Decrypting the python script
