@@ -1,11 +1,12 @@
-from math import ceil
+# ========== XOR GUI (Password Protector) ==========
+import PySimpleGUI as sg
+
+from time import sleep
 from random import choice
 from string import ascii_letters
+from numpy import ceil, repeat
 
-from numpy import repeat
-
-#---------- HELPER FUNCTIONS ----------#
-
+# ========== HELPER FUNCTIONS ==========
 
 def resizeKey(asciiArr_message, asciiArr_key):
     """
@@ -41,7 +42,7 @@ def generateASCIIkey(keyLengthASCII):
 def format_output(encrypted_message):
     return ','.join([str(i)[2:] for i in encrypted_message])
 
-#----------------------------#
+# ========================================
 
 def encryptXOR(message, key):
     """
@@ -81,3 +82,55 @@ def decryptXOR(encrypted_message, key):
     decrypted_message = ''.join(
         [chr(i ^ j) for (i, j) in list(zip(encrypted_message, binArrray_key))])
     return decrypted_message
+
+
+# Color theme option, provided by the PySimpleGUI
+sg.ChangeLookAndFeel('SandyBeach')
+
+
+layout = [
+            [sg.Text('Password:', font=('Verdana', 11)),
+             sg.Input(),
+             sg.Button('Get Size')],
+            [sg.Text('Key:', font=('Verdana', 11)),
+             sg.Input()],
+            [sg.Button('Generate Random ASCII Key', button_color='orange'),
+             sg.Text('with size', font=('Verdana', 11)),
+             sg.Input(size=(15, 1), default_text=10)],
+            [sg.Button('Encrypt', button_color='red'),
+             sg.Button('Decrypt', button_color='blue')]
+        ]
+
+window = sg.Window('XOR Password Protector', layout)
+while True:
+    event, values = window.read()
+    if event == sg.WIN_CLOSED:
+        break
+    else:
+        password, key, keyLengthASCII = values[0], values[1], values[2]
+        if event == 'Encrypt':
+            encrypted_message = encryptXOR(password, key)
+            # changing the format of the output
+            print('Encrypting the password...')
+            sleep(2)
+            print('Your password has been encrypted!')
+            print('Encrypted password:')
+            print(encrypted_message)
+
+        elif event == 'Decrypt':
+            decrypted_message = decryptXOR(password, key)
+            print('Decrypting the password...')
+            sleep(2)
+            print('Your password has been decrypted!')
+            print('Decrypted password:')
+            print(decrypted_message)
+
+        elif event == 'Generate Random ASCII Key':
+            randomKey = generateASCIIkey(int(keyLengthASCII))
+            print('Generating Random ASCII Key...')
+            sleep(2)
+            print('A random key has been generated!')
+            print(randomKey)
+
+        elif event == 'Get Size':
+            print('The size of the password is:', len(password))
